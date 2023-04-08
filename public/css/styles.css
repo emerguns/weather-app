@@ -1,0 +1,55 @@
+html,
+body {
+    text-align: center;
+    background-color: #E4E9FD;
+    background-image: radial-gradient(
+    ellipse Farthest-corner at 3% 3%,
+    #ffa610 5%,
+    #ff4d29 20%, 
+    #65d6ef 70%, 
+    #044085 100%);
+    min-height: 1000px;
+}
+
+.titleRes{
+   padding: 50px;
+   font-family: Play;
+    font-size: 50px;
+    color: rgba(3, 3, 3, 0.275);
+    text-shadow: rgba(255, 255, 255, 1) 2px 2px 8px;
+    animation: neonEffect 2s linear infinite;  
+}
+
+@keyframes neonEffect {
+    0%, 35%, 45%, 65%, 100%{
+        text-shadow: 
+        rgb(251, 251, 250) 0 0 14px;
+        color: #f0f4d8 0 0 24px;
+        color: #eef5b2 0 0 36px
+    }
+    40%, 60%{
+        text-shadow: none;
+    }
+}
+label{
+    font-family: Comfortaa;
+    font-size: 27px;
+}
+
+.btn{
+    margin: 50px;
+}
+
+p{
+    font-family: Comfortaa;
+    font-size: 27px;  
+}
+
+.piePagina{
+    font-family: Comfortaa;
+    font-size: 27px;
+    padding-top: 20rem;   
+}
+
+
+
